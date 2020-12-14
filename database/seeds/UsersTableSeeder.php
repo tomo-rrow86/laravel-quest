@@ -12,29 +12,29 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name' => 'sample7',
-            'email' => 'sample7@sample.com',
-            'password' => bcrypt('sample7') 
+            'name' => 'sample12',
+            'email' => 'sample12@sample.com',
+            'password' => bcrypt('sample12') 
         ]);
         DB::table('users')->insert([
-            'name' => 'sample8',
-            'email' => 'sample8@sample.com',
-            'password' => bcrypt('sample8') 
+            'name' => 'sample13',
+            'email' => 'sample13@sample.com',
+            'password' => bcrypt('sample13') 
         ]);
         DB::table('users')->insert([
-            'name' => 'sample9',
-            'email' => 'sample9@sample.com',
-            'password' => bcrypt('sample9') 
+            'name' => 'sample14',
+            'email' => 'sample14@sample.com',
+            'password' => bcrypt('sample14') 
         ]);
         DB::table('users')->insert([
-            'name' => 'sample10',
-            'email' => 'sample10@sample.com',
-            'password' => bcrypt('sample10') 
+            'name' => 'sample15',
+            'email' => 'sample15@sample.com',
+            'password' => bcrypt('sample15') 
         ]);
         DB::table('users')->insert([
-            'name' => 'sample11',
-            'email' => 'sample11@sample.com',
-            'password' => bcrypt('sample11') 
+            'name' => 'sample16',
+            'email' => 'sample16@sample.com',
+            'password' => bcrypt('sample16') 
         ]);
     }
 }

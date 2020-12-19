@@ -14,6 +14,7 @@
 
     <div class="row mt-5 mb-5">
         <div class="col-sm-6 offset-sm-3">
+
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
                     {!! Form::label('name', '名前') !!}
